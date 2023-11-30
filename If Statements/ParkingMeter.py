@@ -18,7 +18,7 @@ print("Kia Ora, this is a parking meter")
 print("Park Time:\n $4/hr for the first 3 hours\n $2/hr for each additional hour")
 
 # return input as an integer
-park_time = (int(input("How many hours will you be parking for? ")))
+park_time = int(input("How many hours will you be parking for? "))
 print("Park time is ", park_time, " hours.")
 rate = 4
 cost = rate * park_time
@@ -41,6 +41,10 @@ else:
 """
 Test case assertion 1:
 If parking hours is 4, the parking cost should be $14
+
+Test case assertion 2:
 If parking hours is 1, the parking cost should be $4
+
+Test case assertion 3:
 If parking hours is 3, the parking cost should be $12
 """
