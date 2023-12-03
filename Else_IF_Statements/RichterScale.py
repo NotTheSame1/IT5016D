@@ -17,3 +17,7 @@ Less than 2.0 Micro
 8.0 - 9.9 Great
 10.0 or more Meteoric
 """
+
+magnitude = float(input("Hello, please enter the magnitude of the earthquake\n"))
+if magnitude >= 10:
+    print(f"A {magnitude} earthquake is measured as Meteoric in the Richter Scale.")
