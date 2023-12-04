@@ -23,8 +23,11 @@ Alarm clock 70
 Quiet room 40
 """
 
+# Defines a variable that stores user input as a value and converts the input to an integer
 decibel_input = int(input("Please enter a decibel value:\n"))
 
+# Uses the user input saved into the variable `decibel_input` to check if the integer is a specific dB or
+# if it is within a specific range, then displays an appropriate message
 if decibel_input == 130:
     print(f"A decibel level of {decibel_input} is as loud as a jackhammer")
 elif decibel_input == 106:
