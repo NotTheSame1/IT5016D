@@ -26,14 +26,18 @@ Quiet room 40
 decibel_input = int(input("Please enter a decibel value:\n"))
 
 if decibel_input == 130:
-    print(f"A decibel level of {decibel_input} is the same as a jackhammer")
+    print(f"A decibel level of {decibel_input} is as loud as a jackhammer")
 elif decibel_input == 106:
-    print(f"A decibel level of {decibel_input} is the same as a petrol lawnmower")
+    print(f"A decibel level of {decibel_input} is as loud as a petrol lawnmower")
 elif decibel_input == 70:
-    print(f"A decibel level of {decibel_input} is the same as an alarm clock")
+    print(f"A decibel level of {decibel_input} is as loud as an alarm clock")
 elif decibel_input == 40:
-    print(f"A decibel level of {decibel_input} is the same as a quiet room")
+    print(f"A decibel level of {decibel_input} is as loud as a quiet room")
 elif decibel_input <= 129 or decibel_input > 106:
     print(
-        f"A decibel level of {decibel_input} is between a jackhammer and a Petrol lawnmower"
+        f"A decibel level of {decibel_input} is between the loudness of a jackhammer and a petrol lawnmower"
+    )
+elif decibel_input <= 105 or decibel_input > 70:
+    print(
+        f"A decibel level of {decibel_input} is between a Petrol lawnmower and an alarm clock"
     )
