@@ -47,7 +47,5 @@ elif decibel_input >= 41:
     print(
         f"A decibel level of {decibel_input} is between the loudness of an alarm clock and a quiet room"
     )
-elif decibel_input <= 39:
-    print(f"A decibel level of {decibel_input} is quieter than a quiet room")
 else:
-    print("Error - only use whole numbers")
+    print(f"A decibel level of {decibel_input} is quieter than a quiet room")
