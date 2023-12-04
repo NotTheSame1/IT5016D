@@ -40,3 +40,14 @@ elif magnitude >= 2.0:
     print(f"A {magnitude} earthquake is measured as Very Minor in the Richter Scale.")
 else:
     print(f"A {magnitude} earthquake is measured as Micro in the Richter Scale.")
+
+"""
+Test case assertion 1:
+If magnitude is 10.1, displays message that the earthquake is Meteoric
+
+Test case assertion 2:
+If magnitude is 8, displays message that the earthquake is Great
+
+Test case assertion 3:
+If magnitude is 1.5, displays message that the earthquake is Micro0
+"""
