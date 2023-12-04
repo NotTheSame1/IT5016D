@@ -60,6 +60,12 @@ else:
 
 
 """
+Test case assertion 1:
+If year is 1986, the zodiac animal should be a Tiger
+
+Test case assertion 2:
+If year is 2011, the zodiac animal should be a Hare
+
 Reference: TravelChinaGuide.com (2023), Chinese Zodiac Calculator. What is My 
 Chinese Zodiac?. How to Calculate Your Chinese zodiac sign mathematically?.
 https://www.travelchinaguide.com/intro/social_customs/zodiac/calculator.htm
