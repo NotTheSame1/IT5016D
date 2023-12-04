@@ -49,3 +49,5 @@ elif decibel_input >= 41:
     )
 elif decibel_input <= 39:
     print(f"A decibel level of {decibel_input} is quieter than a quiet room")
+else:
+    print("Error - only use whole numbers")
