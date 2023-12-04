@@ -39,5 +39,9 @@ elif decibel_input >= 107:
     )
 elif decibel_input >= 71:
     print(
-        f"A decibel level of {decibel_input} is between a Petrol lawnmower and an alarm clock"
+        f"A decibel level of {decibel_input} is between the loudness of a petrol lawnmower and an alarm clock"
+    )
+elif decibel_input >= 41:
+    print(
+        f"A decibel level of {decibel_input} is between the loudness of an alarm clock and a quiet room"
     )
