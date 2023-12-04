@@ -33,6 +33,8 @@ elif decibel_input == 70:
     print(f"A decibel level of {decibel_input} is as loud as an alarm clock")
 elif decibel_input == 40:
     print(f"A decibel level of {decibel_input} is as loud as a quiet room")
+elif decibel_input >= 131:
+    print(f"A decibel level of {decibel_input} is louder than a jackhammer")
 elif decibel_input >= 107:
     print(
         f"A decibel level of {decibel_input} is between the loudness of a jackhammer and a petrol lawnmower"
