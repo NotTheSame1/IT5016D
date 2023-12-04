@@ -49,3 +49,14 @@ elif decibel_input >= 41:
     )
 else:
     print(f"A decibel level of {decibel_input} is quieter than a quiet room")
+
+"""
+Test case assertion 1:
+If decibel is 130, message displays is as loud as a jackhammer
+
+Test case assertion 2:
+If decibel is 50, message displays is between the loudness of an alarm clock and a quiet room
+
+Test case assertion 3:
+If decibel is less than 400, message displays is quieter than a quiet room
+"""
