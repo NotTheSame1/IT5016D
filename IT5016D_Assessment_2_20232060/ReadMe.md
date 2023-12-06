@@ -199,7 +199,7 @@ Ticket Status: Open
 
 ## Submission Checklist
 
-- [ ] Software_Project Python Code file
+- [] Software_Project Python Code file
 - [ ] ReadMe file with instructions
 - [ ] Word/PDF file with the details of Software Development Lifecycle stages during the development of the project
 - [ ] Instructions required to display your software project
