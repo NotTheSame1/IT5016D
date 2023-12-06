@@ -4,11 +4,9 @@
 
 ## Client Requirements
 
-- The client would like a Help Desk ticketing system prototype developed.
-
 - The Help Desk ticketing system should handle tickets from internal customers only.
 
-    - Tickets will be requested for assistance from the Help Desk by staff members of the organisation.
+- Tickets will be requested for assistance from the Help Desk by staff members of the organisation.
 
 ## Requirements of the Help Desk Ticketing System
 
