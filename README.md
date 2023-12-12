@@ -24,3 +24,8 @@ A collection of practice codes and research during my journey in learning Python
     - Select **GitHub** from the version control drop-down menu
     - Paste the repositories URL
     - Click on **Clone**
+
+## Software Development Life Cycle
+
+- There is a Kanban board in the [projects](https://github.com/users/NotTheSame1/projects/2) tab of this repository
+  showing the process I took to manage this project.
