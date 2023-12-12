@@ -12,3 +12,5 @@ ghttps://www.youtube.com/watch?v=94UHCEmprCY
         print(f"We have {count} even numbers")
 
 
+Writing Markdown:
+GitHub, Mastering Markdown - GitHub Guides #33, https://github.com/neoscotch/neoscotch/issues/33
