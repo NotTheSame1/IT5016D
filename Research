@@ -1,3 +1,14 @@
 For Loops:
 Youtube, Programming with Mosh, Python For Loops - Python Tutorial for Absolute Beginners,
 ghttps://www.youtube.com/watch?v=94UHCEmprCY
+    Exercise: Write a program that displays the even numbers between 1 to 10 and a message that says how many even
+    numbers were found.
+
+        count = 0
+        for number in range(1, 10):
+            if number % 2 == 0:
+                count += 1
+                print(number)
+        print(f"We have {count} even numbers")
+
+
