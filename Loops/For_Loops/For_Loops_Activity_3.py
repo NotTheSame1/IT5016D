@@ -1,4 +1,4 @@
-# For_Loops_Activity_1.py
+# For_Loops_Activity_3.py
 # @ Author: Norma Seym
 # Date: December 2023
 
