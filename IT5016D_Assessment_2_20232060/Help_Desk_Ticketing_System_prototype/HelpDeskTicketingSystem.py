@@ -8,3 +8,11 @@ Description:
 Info:
 
 """
+
+menu = int(
+    input(
+        "IT5016D Help Desk Ticketing System:\n"
+        "====================================================\n"
+        "Select from the following menu:"
+    )
+)
