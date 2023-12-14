@@ -12,4 +12,4 @@ my_list = [1, 4, 8, 9, 22, 27]
 list_length = len(my_list)
 # Determine which numbers are the first half of the list
 first_half = list_length / 2
-print(first_half)
+print(my_list[0:first_half])
