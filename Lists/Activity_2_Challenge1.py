@@ -1,4 +1,4 @@
-# Activity_15.py
+# Activity_2_Challenge1.py
 # @ Author: Norma Seym
 # Date: December 2023
 """
