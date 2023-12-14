@@ -11,5 +11,6 @@ my_list = [1, 4, 8, 9, 22, 27]
 # Determine how many items are in the list
 list_length = len(my_list)
 # Determine which numbers are the first half of the list
-first_half = list_length / 2
+first_half = int(list_length / 2)
+# Displays first half of list items
 print(my_list[0:first_half])
