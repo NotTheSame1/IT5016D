@@ -14,3 +14,12 @@ list_length = len(my_list)
 first_half = int(list_length / 2)
 # Displays first half of list items
 print(my_list[0:first_half])
+
+"""
+Test case assertion 1:
+Should display [1, 4, 8]
+
+Test case assertion 2:
+Temporarily changed items in `my_list` to [1, 4, 8, 9, 22, 27, 36, 42, 54, 66]
+Should display [1, 4, 8, 9, 22]
+"""
