@@ -13,9 +13,9 @@ print("List 1:", list_1, "\nList 2:", list_2)
 
 option = input("Display the (S)um or (A)verage of the combined lists? ")
 if option.upper() == "S":
-    print(sum_list)
+    print(f"The sum of the items on the lists is {sum_list}")
 
 else:
     len_list = len(list_1) + len(list_2)
     avg_list = sum_list / len_list
-    print(avg_list)
+    print(f"The average of the items on the list is {avg_list}")
