@@ -1,4 +1,4 @@
-# Activity_15.py
+# Activity_1_Task_2.py
 # @ Author: Norma Seym
 # Date: December 2023
 """
