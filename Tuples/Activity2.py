@@ -43,5 +43,5 @@ for i in bank_accounts:
 
 # Shows names of customers with no address and no phone number
 for i in bank_accounts:
-      if int(i[1]) > 100:
+    if int(i[1]) > 100:
         print(i[0])
