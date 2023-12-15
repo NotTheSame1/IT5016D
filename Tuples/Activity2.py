@@ -32,7 +32,16 @@ for i in bank_accounts:
     if len(i) > 2:
         print("\nThe name is ", i[0], " and the address is ", i[2])
 
+    # Displays names of customers with no address or phone number
+    else:
+        print(f"\n{i[0]} has no address or phone number on record")
+
 # The names of all customers with less than $100
 for i in bank_accounts:
-    if i[1] < 100:
+    if int(i[1]) < 100:
         print(f"\n{i[0]} has less than $100 in their account")
+
+# Shows names of customers with no address and no phone number
+for i in bank_accounts:
+      if int(i[1]) > 100:
+        print(i[0])
